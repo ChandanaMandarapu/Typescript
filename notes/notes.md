@@ -19,3 +19,10 @@ void is a type that represents the absence of any value its is often used as the
 never in ts
 
 never keyword is used to indicate that a function will not return anything or that a variable can never have a value the never type is ueful to indicating that certain code paths should never be reached or that certain values are impossible it can help catch errors at compile time instead of runtime
+
+multi dimensional arrays
+MDA array is an array that contains other arrays as its elements MDA can be defined using the same notation as one dimensioanl but with nested square brackets
+
+objects 
+
+objects in ts is a structured datatype that reperesents collection of properties each with a key and an an associateed value the properties of an object can have specific types and the obj itself can be annotated with a type and often defined using an interface of typealias . TS uses structural typing meaning that shape of object its structure or properties is what matters for type compatibility
