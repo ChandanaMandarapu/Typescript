@@ -32,3 +32,15 @@ intersection types is a way to combine multiple types into a single type include
 Unions
 
 unions are used to declare a  type that can have one of several possible types unions are useful when we want to allow a variable or parameter to accept multiple types |
+
+Literals
+
+Literal types allow u to specify a value that can only be one specific literal value this means that a variable with a literal type can only have one specific value no ther
+
+Tuples
+
+Tuple is a type that reperesents an array with a fixed number of elements where each element can have a diff type. The order of the types in the tuple definition corresponds to the order of the value in the actual array . tuples are similar to arrays but they have a specific structure and can be used to mode finite sequences with known lengths
+
+Enums
+
+Enum is a way to define a set of named constants. Enums allow u to define a collection of related values that can be used interchangebaly in ur code
