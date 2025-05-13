@@ -11,3 +11,11 @@ TS has a special any type that can be used to rep any type . when a variable is 
 
 function parameters annotations
 func parameter annotation.. in ts are used to specify the expected types of the paremeters that a func takes 
+
+void in ts
+
+void is a type that represents the absence of any value its is often used as the return type of functions that do not return a value
+
+never in ts
+
+never keyword is used to indicate that a function will not return anything or that a variable can never have a value the never type is ueful to indicating that certain code paths should never be reached or that certain values are impossible it can help catch errors at compile time instead of runtime
