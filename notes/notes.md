@@ -28,3 +28,7 @@ objects
 objects in ts is a structured datatype that reperesents collection of properties each with a key and an an associateed value the properties of an object can have specific types and the obj itself can be annotated with a type and often defined using an interface of typealias . TS uses structural typing meaning that shape of object its structure or properties is what matters for type compatibility
 
 intersection types is a way to combine multiple types into a single type includes all the properties and methods of each constituion type. An intersetion type is denoted by the & symbol
+
+Unions
+
+unions are used to declare a  type that can have one of several possible types unions are useful when we want to allow a variable or parameter to accept multiple types |
